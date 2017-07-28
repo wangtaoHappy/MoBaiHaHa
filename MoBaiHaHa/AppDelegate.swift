@@ -15,7 +15,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        application.statusBarStyle = UIStatusBarStyle.lightContent
+        let mainVC = MainViewController()
+        
+        let VC = ViewController()
+        let leftVC = LeftViewController()
+        let Nav = UINavigationController.init(rootViewController: VC)
+        mainVC.addChildViewController(Nav)
+        mainVC.view.addSubview(Nav.view)
+        mainVC.addChildViewController(leftVC)
+        mainVC.view.addSubview(leftVC.view)
+        mainVC.leftVC = leftVC
+        VC.mainVC = mainVC
+        leftVC.view.frame = CGRect.init(x: -250, y: 0, width: 250, height: UIScreen.main.bounds.size.height)
+
+        //let Nav1 = UINavigationController.init(rootViewController: mainVC)
+        self.window?.frame = UIScreen.main.bounds
+        self.window?.rootViewController = mainVC
+        self.window?.makeKeyAndVisible()
         return true
     }
 

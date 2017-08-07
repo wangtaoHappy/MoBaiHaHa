@@ -25,6 +25,9 @@
 		932A11041F29D58D00347296 /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 932A11031F29D58D00347296 /* header.jpg */; };
 		932A11061F29E63800347296 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932A11051F29E63800347296 /* BaseViewController.swift */; };
 		93C834DD1F2AD51700ECD238 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C834DC1F2AD51700ECD238 /* search.png */; };
+		93C834DF1F2AEDD300ECD238 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C834DE1F2AEDD300ECD238 /* ScanViewController.swift */; };
+		93C834E11F2AEE1500ECD238 /* RedPacketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C834E01F2AEE1500ECD238 /* RedPacketViewController.swift */; };
+		93C834E31F2B0DD200ECD238 /* 6005.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93C834E21F2B0DD200ECD238 /* 6005.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,11 @@
 		932A11031F29D58D00347296 /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
 		932A11051F29E63800347296 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		93C834DC1F2AD51700ECD238 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		93C834DE1F2AEDD300ECD238 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		93C834E01F2AEE1500ECD238 /* RedPacketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedPacketViewController.swift; sourceTree = "<group>"; };
+		93C834E21F2B0DD200ECD238 /* 6005.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6005.mp3; sourceTree = "<group>"; };
+		93C834E41F2ED6D000ECD238 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		93C834E81F2EDDDB00ECD238 /* MoBaiHaHa--Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoBaiHaHa--Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 		932A10AC1F27149200347296 = {
 			isa = PBXGroup;
 			children = (
+				93C834E81F2EDDDB00ECD238 /* MoBaiHaHa--Bridging-Header.h */,
 				932A10B71F27149200347296 /* MoBaiHaHa */,
 				932A10B61F27149200347296 /* Products */,
 			);
@@ -80,6 +89,7 @@
 		932A10B71F27149200347296 /* MoBaiHaHa */ = {
 			isa = PBXGroup;
 			children = (
+				93C834E21F2B0DD200ECD238 /* 6005.mp3 */,
 				93C834DC1F2AD51700ECD238 /* search.png */,
 				932A11031F29D58D00347296 /* header.jpg */,
 				932A10D41F273E8000347296 /* ee.png */,
@@ -89,9 +99,12 @@
 				932A10CC1F273C4100347296 /* aa@3x.png */,
 				932A10B81F27149200347296 /* AppDelegate.swift */,
 				932A10DC1F286E9000347296 /* MainViewController.swift */,
+				93C834E41F2ED6D000ECD238 /* PrefixHeader.pch */,
 				932A10BA1F27149200347296 /* ViewController.swift */,
+				93C834DE1F2AEDD300ECD238 /* ScanViewController.swift */,
 				932A10CA1F2716C000347296 /* LeftViewController.swift */,
 				932A10D61F273EA000347296 /* MessageViewController.swift */,
+				93C834E01F2AEE1500ECD238 /* RedPacketViewController.swift */,
 				932A10D81F273F0900347296 /* SearchViewController.swift */,
 				932A11051F29E63800347296 /* BaseViewController.swift */,
 				932A11011F29CB1300347296 /* HeaderLeftView.swift */,
@@ -169,6 +182,7 @@
 				932A10CD1F273C4100347296 /* aa@3x.png in Resources */,
 				932A10D51F273E8000347296 /* ee.png in Resources */,
 				93C834DD1F2AD51700ECD238 /* search.png in Resources */,
+				93C834E31F2B0DD200ECD238 /* 6005.mp3 in Resources */,
 				932A10C01F27149200347296 /* Assets.xcassets in Resources */,
 				932A10D31F273C7900347296 /* dd.png in Resources */,
 				932A10BE1F27149200347296 /* Main.storyboard in Resources */,
@@ -189,8 +203,10 @@
 				932A10BB1F27149200347296 /* ViewController.swift in Sources */,
 				932A10D71F273EA000347296 /* MessageViewController.swift in Sources */,
 				932A11061F29E63800347296 /* BaseViewController.swift in Sources */,
+				93C834E11F2AEE1500ECD238 /* RedPacketViewController.swift in Sources */,
 				932A10B91F27149200347296 /* AppDelegate.swift in Sources */,
 				932A11021F29CB1300347296 /* HeaderLeftView.swift in Sources */,
+				93C834DF1F2AEDD300ECD238 /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,10 +332,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KN6539LSM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangtao/Desktop/王涛/MoBaiHaHa/MoBaiHaHa/PrefixHeader.pch";
 				INFOPLIST_FILE = MoBaiHaHa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangtao.MoBaiHaHa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangtao/Desktop/王涛/MoBaiHaHa/MoBaiHaHa--Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -329,10 +348,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KN6539LSM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangtao/Desktop/王涛/MoBaiHaHa/MoBaiHaHa/PrefixHeader.pch";
 				INFOPLIST_FILE = MoBaiHaHa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangtao.MoBaiHaHa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangtao/Desktop/王涛/MoBaiHaHa/MoBaiHaHa--Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -168,7 +168,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelega
     }
     
     func redpacketButtonAction(sender:UIButton) {
-        
+        self.navigationController?.pushViewController(RedPacketViewController(), animated: true)
     }
     
     func serviceButtonAction(sender:UIButton) {
@@ -177,6 +177,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelega
     
     func searchButtonAction(sender:UIButton) {
         
+        self.navigationController?.pushViewController(ScanViewController(), animated: true)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

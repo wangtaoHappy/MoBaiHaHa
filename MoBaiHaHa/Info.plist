@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>使用蓝牙</string>
+	<key>NSCameraUsageDescription</key>
+	<string>相机使用</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>定位服务</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
